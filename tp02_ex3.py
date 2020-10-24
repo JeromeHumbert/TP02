@@ -1,24 +1,25 @@
 """
-    Programme permettant de savoir si un trajet ou une série de trajet sont réalisable par rapport
-    au réservoir d'essence d'une voiture. Pour ce faire il faut spécifier une distance en kilometres
-    et un nombre de passagers à bord(sans compte le conducteur).
-    Indications:
-        - Le véhicule a les caractéristiques suivantes :
-            - Une consommation fixe de 5.0 litre pour 100km
-            - Pour chaque personne ajoutée (le conducteur ne compte pas), l'essence utilisée augmente de 30%
-              en rapport à la consommation normale
-                - Exemple : pour 1 personne en plus du conducteur, la consommation vaut 1.3 fois la consommation normale
-                            pour 2 personnes en plus du conducteur, la consommation vaut 1.6 fois la consommation normale
-        - Lors de la saisie de la distance, si l'utilisateur met 0, le programme rempli le réservoir d'essence
-          du véhicule
-        - Lorsque qu'un voyage est réalisable, un message affiche le nombre de litres restants
-        - Le programme se termine uniquement si une panne d'essence se produit. Si cela arrive,
-          Un message affiche que la panne arrivera lors de ce trajet. Un second message affichera
-          la distance parcourue avec tous les trajets.
+Une escape game propose au joueur l’énigme suivante : il s’agit d’ouvrir
+une porte secrète verrouillée par une serrure a combinaison.
+Une telle serrure se compose d’un cadran avec trois disques rotatifs
+à 10 chiffres (0 à 9). 
 
+En connaissant les indices suivants, écrivez un programme permettant de
+déterminer les combinaisons.
+    •	La somme des chiffres du code est égale au nombre de signes du zodiaque.
+    •	Les chiffres de la centaine et de la dizaine sont divisibles par 3.
+
+Indication : il y a plusieurs codes possibles.
+
+Parmi les codes possibles, un seul possède comme diviseur 78.
+C'est le code permettant d'ouvrir la serrure.
+
+Utiliser la méthode de recherche avec des boucles imbriquées.
+Le programme devra afficher le code débloquant la serrure.
 """
-### Déclaration et  Initialisation des variables
+
+#Déclaration et initialisation des variables
 
 
 
-### Séquence d'opération
+#Séquence d'opérations
