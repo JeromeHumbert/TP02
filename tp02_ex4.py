@@ -11,9 +11,9 @@
               hôtesses/stewards ne compte pas), l'essence utilisée
               augmente de 0.1724% en rapport à la consommation normale
              - Exemple :
-                 -pour 290 personne en plus du conducteur,
+                 -pour 290 personne,
                  la consommation vaut 1.5 fois la consommation normale
-                 -pour 145 personnes en plus du conducteur,
+                 -pour 145 personnes,
                  la consommation vaut 1.25 fois la consommation normale
             - Lors de la saisie de la distance, si l'utilisateur
             met 0, le programme rempli le réservoir de carburant du véhicule
