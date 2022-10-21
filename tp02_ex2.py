@@ -9,7 +9,7 @@ systématiquement 20% de zombies
 « Selon le nombre de zombies et d'habitants saisis par l'utilisateur,
 en quelle année le nombre de zombies sera-t-il supérieur à celui des habitants
 de la ville ? Combien aura-t-on alors de zombies et d'habitants ? »
-Les calculs sont faits dans l'ordre de l'énoncé.
+Les calculs sont faits dans l'ordre de l'énoncé et sont arrondis à l'inférieur.
 
 """
 
